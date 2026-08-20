@@ -1,6 +1,6 @@
 # GeoTerra-Sim
 
-### Installing weights from HuggingFace
+### Installing weights from HuggingFace (https://huggingface.co/rosst1221/geoterra-sim)
 
 We provide the final weights for the following models used within the GeoTerra-Sim paper:
 - diffusion finetuning
