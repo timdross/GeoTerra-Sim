@@ -32,3 +32,10 @@ hf download NewtNewt/MESA --local-dir weights/mesa
 ```
 
 To download the surface segmentation model:
+```bash
+# Create the target directory
+mkdir -p weights/segmentation
+
+# Download surface segmentation model weights from HuggingFace
+hf download rosst1221/geoterra-sim --include "segmentation/*"    --local-dir weights/surface_segmentation
+```
